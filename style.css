@@ -23,6 +23,7 @@
 .mid-circle {
     fill: #000;
 }
+
 .hour-marks {
     fill: none;
     stroke: #000;
@@ -62,5 +63,6 @@
 #minute,
 #second {
     transform-origin: 300px 300px;
-    transition: transform .5s ease-in-out;
+    /* commenting this to make the second arm continue spinning after reaching 12*/
+    /*transition: transform .5s ease-in-out;*/
 }
